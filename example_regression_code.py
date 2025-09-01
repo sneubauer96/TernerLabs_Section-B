@@ -2,7 +2,7 @@
 """
 Terner Labs - Economist Data Assignment (Section B)
 
-Example code snippet: 2023 Dissertation
+Example code snippet: 2022 Dissertation
 
 @author: Sarah Neubauer
 
@@ -45,6 +45,7 @@ r5_2 = smf.ols(f"evacuation_per_thous ~ log_sci_csd + {controls1}", data=reg_les
 
 #Example output
 print(r2_2.summary())
+
 
 
 
